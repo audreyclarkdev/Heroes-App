@@ -1,0 +1,64 @@
+:root {
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--sans);
+}
+
+body {
+  background: #2d1b3d;
+  /* dark purple */
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: var(--heading);
+  padding: 50px 50px;
+}
+
+.hero-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.hero-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px; 
+}
+
+.hero-name {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 28px;
+  font-family: var(--heading);
+  margin-bottom: 20px;
+}
+
+.hero-image {
+  width: 300px;
+  height: auto;
+  margin-top: 25px;
+}
+
+.hero-fullname {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  font-size: 26px;
+}
