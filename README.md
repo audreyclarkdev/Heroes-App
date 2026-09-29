@@ -41,7 +41,7 @@ npm install
 node server.js
 ```
 
-The server runs on `http://localhost:3000` by default (or the port set in your environment variables).
+The server runs on `http://localhost:3000` by default
 
 ### Frontend
 
