@@ -2,10 +2,8 @@
 
 A full-stack application that displays a set of superhero characters — name, full name, and image — by fetching data through a custom Express backend, which in turn calls the [SuperHero API](https://akabab.github.io/superhero-api/api).
 
-## Live Demo
+## Live Demo coming soon
 
-- **Frontend:** [placeholder — add your Netlify URL here]
-- **Backend:** [placeholder — add your backend host URL here, if deployed separately]
 
 ## Architecture
 
